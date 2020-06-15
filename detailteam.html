@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta charset="UTF-8">
+    <title>Football PWA</title>
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Football" />
+    <link rel="stylesheet" href="css/materialize.min.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="img/icons-192.png">
+    <link rel="apple-touch-icon" href="img/icons-192.png">
+    <meta name="theme-color" content="#000" />
+  </head>
+  <body>
+    <nav class="deep-purple darken-4" role="navigation">
+        <div class="nav-wrapper container">
+            <a href="#" class="brand-logo" id="logo-container">Detail Team</a>
+            <a href="./index.html" class="sidenav-trigger" data-target="nav-mobile">
+                <i class="material-icons">arrow_back</i>
+            </a>
+            <ul class="topnav right hide-on-med-and-down"></ul>
+            <ul class="sidenav" id="nav-mobile"></ul>
+        </div>
+    </nav>
+    <div class="container">
+      <div class="col s12">
+        <ul class="tabs tabs-fixed-width">
+          <li class="tab"><a class="active" href="#body-content">Detail</a></li>
+          <li class="tab"><a href="#squad">Squad</a></li>
+        </ul>
+      </div>
+      <div id="body-content" class="col s12"></div>
+      <div id="squad" class="col s12"></div>
+    </div>
+    <div class="fixed-action-btn">
+        <a class="btn-floating btn-large pink accent-4" id="fav">
+            <i class="large material-icons">favorite</i>
+        </a>
+        <a class="btn-floating btn-large pink accent-4" id="del">
+          <i class="large material-icons">delete</i>
+      </a>
+    </div>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/api.js"></script>
+    <script src="js/idb.js"></script>
+    <script src="js/db.js"></script>
+    <script src="js/s-work.js"></script>
+    <script src="js/detteam.js"></script>
+  </body>
+</html>
