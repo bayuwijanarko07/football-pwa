@@ -1,3 +1,3 @@
 # submission dicoding football-pwa
-[Twitter - @bayuwirrr](https://twitter.com/bayuwirrr)
+[Live Here](https://bayuwijanarko07.github.io/football-pwa/)
 
